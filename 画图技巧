@@ -1,0 +1,6 @@
+1.如果要在图片中显示中文，需要在脚本开头添加一下几行
+	#-*- coding: utf-8 -*-
+	from matplotlib.font_manager import FontProperties
+	import matplotlib.pyplot as plt
+	font = FontProperties(fname=r"/home/enboyang/.fonts/simsun.ttc", size=14) 
+
